@@ -1,0 +1,32 @@
+body{
+    background-color: burlywood;
+    font-family: sans-serif;
+    font-size: 16px;
+    color:indigo;
+
+}
+.logo{
+    text-align: left;
+}
+header{
+    background-color: aliceblue;
+    text-align:right;
+    
+
+
+}
+header li{
+    list-style: none;
+
+}
+.home-content{
+    text-align: center;
+    font-size: 32px;
+}
+img{
+    width:100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
