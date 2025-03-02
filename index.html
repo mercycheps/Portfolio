@@ -1,81 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Portfolio Website </title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <header>
-           <div class="logo">
-            <h1 class="logo">Mercy Maritim</h1>
-            </div> 
-            <div class="menu">
-                <ul>
-                    <li><button class="nav" data-target="home">Home</button></li>
-                    <li><button class="nav" data-target="about">About</button></li>
-                    <li><button class="nav" data-target="project">Project</button></li>
-                    <li><button class="nav" data-target="contact">Contact</button></li>
-                </ul>
-            </div>
 
-        </header>
-        <section id="home">
-            <div class="home-content">
-             <img src="/images/Blog-Featured-Image-The-Secret-to-Creating-the-Perfect-Work-Station-at-Home.webp">
-             <p>Welcome to my website</p>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Portfolio Website </title>
+    <link rel="stylesheet" href="style.css" />
+</head>
 
-            </div>
-        </section>
-        <section id="about">
-            <div class="about-page">
-                <h2>About</h2>
-                <p>Hello,my name is Mercy,welcome to my website.Am a student currently studying Software Engineering at Moringa school.</p>
-                
-            </div>
-        </section>
-        <section id="skills">
-            <div class="skill-page">
-                <h2>Skills</h2>
-                <ul>
+<body>
+    <header class="bg-blue-500">
+        <div class="logo">
+            <h1 class="logo text-black">Mercy Maritim</h1>
+        </div>
+        <div class="menu">
+            <ul class="text-indigo-500 inline-flex px-6 gap-6">
+                <li><button class="nav" data-target="home">Home</button></li>
+                <li><button class="nav" data-target="about">About</button></li>
+                <li><button class="nav" data-target="project">Project</button></li>
+                <li><button class="nav" data-target="contact">Contact</button></li>
+            </ul>
+        </div>
+
+    </header>
+    <section id="home">
+        <div class="home-content grid justify-items-center">
+            <img class="welcome-image"
+                src="/images/Blog-Featured-Image-The-Secret-to-Creating-the-Perfect-Work-Station-at-Home.webp">
+            <p>Welcome to my website</p>
+
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-page">
+            <h2 class=" text-indigo-500 text-2xl"> About </h2>
+            <p class="text-black">Hello,my name is Mercy,welcome to my website.Am a student currently studying Software
+                Engineering at Moringa school.</p>
+
+        </div>
+    </section>
+    <section id="skills">
+        <div class="skill-page text">
+            <h2 class="text-indigo-500 text-2xl">Skills</h2>
+            <ul class="text-black list-disc pl-5">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>SQL</li>
 
-                </ul>
-            </div>
-        </section>
-        <section id="project">
-            <div class="project-page">
-                <h2>Project</h2>
-                <p>My website using; 
-                    <ul>
-                      <li> HTML </li>
-                      <li>CSS</li>
-                      <li>JavaScript</li>
-                      <li>SQL</li>
-                    </ul>
-                </p>
-                
-            </div>
-        </section>
-        <section id="Contact">
-            <div class="contact-page">
-                <h2>Contact</h2>
-                <p>You can find me through;</p>
-                
-                   <a href="mailto:mercymaritim8@gmail.com">mercymaritim8@gmail.com</a><br>
-                   <a href="https://github.com/mercycheps" target="mercymaritim">Github</a><br>
-                   <a href="https://www.linkedin.com/in/mercy-chebet-maritim-094119177/" target="mercychebetmaritim">linkedin</a>
-                </p>
-            </div>
-        </section>
-        
-    
-        <script src="index.js"></script>
+            </ul>
+        </div>
+    </section>
+    <section id="project">
+        <div class="project-page">
+            <h2 class=" text-indigo-500 text-2xl">Project</h2>
+            <p class="text-black">My website using;
+            <ul class="text-black list-disc pl-5">
+                <li> HTML </li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+            </ul>
+            </p>
 
-    </body>
+        </div>
+    </section>
+    <section id="Contact">
+        <div class="contact-page  text-orange-400">
+            <h2 class=" text-indigo-500 text-2xl">Contact</h2>
+            <p class="text-black">You can find me through;</p>
+
+            <div class="inline-flex gap-10">
+
+            
+
+
+            <a href="mailto:mercymaritim8@gmail.com"> <img class="h-8 w-8" src="/images/gmail.png" />
+            </a><br>
+            <a class="" href="https://github.com/mercycheps">
+                <img class="h-8 w-8" src="/images/github.svg" />
+
+            </a>
+            <br>
+            <a href="https://www.linkedin.com/in/mercy-chebet-maritim-094119177/" target="mercychebetmaritim">
+                <img class="h-8 w-8" src="/images/linkedin-blue-logo-icon.png" />
+                
+
+            </a>
+            </div>
+            </p>
+        </div>
+    </section>
+
+
+    <script src="index.js"></script>
+
+</body>
+
 </html>
