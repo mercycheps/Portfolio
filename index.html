@@ -92,10 +92,15 @@
             </div>
             </p>
         </div>
+        <span id="copy-right"></span>
     </section>
 
 
-    <script src="index.js"></script>
+    <script> 
+        let d = new Date();
+        let copyRight = document.getElementById("copy-right")
+        copyRight.innerText = "© Mercy Chebet " + d.getFullYear()
+    </script>
 
 </body>
 
